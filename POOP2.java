@@ -8,7 +8,7 @@ package poop2.pkg1;
  *
  * @author poo02alu19
  */
-public class POOP2 {
+public class POOP21 {
 
     public static void main(String[] args) {
         System.out.println("Hola mundo");
@@ -89,6 +89,15 @@ public class POOP2 {
             for(int temp:arreglo){
                 System.out.println("Elemento de arreglo="+temp);
             }
+            System.out.println("######## Actividad ########");
+            System.out.println("Josh, ¿Cuantos años tienes?");
+            int edad = 20;
+            if (edad<=18) {
+                System.out.println("no puedes pasar");
+            }
+            else if(edad>18) {
+                System.out.println("puedes pasar");
+    }
         }    
     
 
