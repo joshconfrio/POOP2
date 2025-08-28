@@ -8,7 +8,7 @@ package poop2.pkg1;
  *
  * @author poo02alu19
  */
-public class POOP21 {
+public class POOP2 {
 
     public static void main(String[] args) {
         System.out.println("Hola mundo");
