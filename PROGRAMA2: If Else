@@ -1,0 +1,25 @@
+public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+
+        System.out.println("##### if #####");
+        if (a < b) {
+            System.out.println("a es menor que b");
+        } else if (a == b) {
+            System.out.println("a es igual que b");
+        } else {
+            System.out.println("a es mayor que b");
+        }
+
+        System.out.println("########### if en funcion / metodo ########");
+        if (menor(a, b)) {
+            System.out.println("metodo retorna true");
+        } else {
+            System.out.println("metodo retorna false");
+        }
+    }
+
+    private static boolean menor(int a, int b) {
+        return a < b;
+    }
+}
