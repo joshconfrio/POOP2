@@ -1,0 +1,15 @@
+package poop2;
+
+public class EdadDemo {
+    public static void main(String[] args) {
+        System.out.println("######## Actividad ########");
+        System.out.println("Josh, ¿Cuantos años tienes?");
+        int edad = 20;
+
+        if (edad <= 18) {
+            System.out.println("no puedes pasar");
+        } else if (edad > 18) {
+            System.out.println("puedes pasar");
+        }
+    }
+}
