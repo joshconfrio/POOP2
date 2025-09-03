@@ -1,0 +1,15 @@
+public class WhileDoWhileDemo {
+    public static void main(String[] args) {
+        System.out.println("##### while ####");
+        int n = 0;
+        while (n < 10) {
+            System.out.println("Contando hacia arriba n=" + n);
+            n++; // n = n + 1;
+        }
+        do {
+            System.out.println("Contando hacia abajo n=" + n);
+            n--; // n = n - 1;
+        } while (n > 0);
+        System.out.println("n=" + n);
+    }
+}
